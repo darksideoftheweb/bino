@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bino</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="content">
+      <header class="header">
+        <div class="header__logo-box">
+          <a href="#" class="header__logo-link">
+            <img src="./img/logo.svg" alt="logo" class="header__logo-img">
+            <img src="./img/logo-text.svg" alt="logo" class="header__logo-img">
+          </a>
+        </div>
+        <div class="header__nav-box">
+          <nav class="header__nav">
+            <ul class="header__items">
+              <li class="header__item">
+                <a href="#" class="header__item-link">home</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__item-link">services</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__item-link">pages</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__item-link">portfolio</a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__item-link">news</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__burger">
+            <span></span>
+          </div>
+          <button class="header__btn">let`s talk</button>
+          <div class="header__social-box">
+            <div class="header__social-item">
+              <svg width="16" height="13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M10.859 1.563a2.265 2.265 0 00-2.265 2.223l-.022 1.23a.468.468 0 01-.53.455l-1.22-.165c-1.604-.219-3.14-.958-4.615-2.186-.467 2.585.445 4.376 2.642 5.757l1.364.857a.469.469 0 01.027.776l-1.244.908c.74.046 1.442.013 2.025-.102 3.684-.736 6.134-3.508 6.134-8.081 0-.373-.79-1.672-2.296-1.672zM7.032 3.757a3.826 3.826 0 016.548-2.62c.556-.004 1.028.137 2.085-.503-.262 1.28-.39 1.836-.948 2.6 0 5.969-3.668 8.87-7.39 9.613-2.552.51-6.263-.327-7.327-1.437.542-.043 2.744-.28 4.017-1.21C2.94 9.49-1.346 6.966 1.47.184 2.793 1.73 4.133 2.78 5.492 3.338c.905.37 1.126.363 1.541.42z"
+                  fill="#000" />
+              </svg>
+            </div>
+
+            <div class="header__social-item">
+              <svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M7 4.9a2.1 2.1 0 100 4.2 2.1 2.1 0 000-4.2zm0-1.4a3.5 3.5 0 110 7 3.5 3.5 0 010-7zm4.55-.175a.875.875 0 11-1.75 0 .875.875 0 011.75 0zM7 1.4c-1.732 0-2.015.005-2.82.04-.55.026-.917.1-1.259.233a2.02 2.02 0 00-.756.492c-.219.212-.387.47-.493.756-.133.343-.206.71-.231 1.259C1.404 4.952 1.4 5.223 1.4 7c0 1.732.005 2.015.04 2.82.026.548.1.917.232 1.258.12.305.26.524.492.756.236.235.455.376.756.492.345.134.714.208 1.26.233.772.037 1.043.041 2.82.041 1.732 0 2.015-.005 2.82-.04.548-.027.917-.1 1.258-.232.303-.119.524-.26.756-.492.236-.236.377-.455.493-.756.133-.345.207-.714.232-1.26.037-.773.041-1.043.041-2.82 0-1.732-.005-2.015-.04-2.82-.027-.548-.1-.917-.233-1.259a2.037 2.037 0 00-.492-.756 2.019 2.019 0 00-.756-.493c-.343-.133-.711-.206-1.259-.231C9.047 1.404 8.777 1.4 7 1.4zM7 0c1.902 0 2.14.007 2.885.042.746.035 1.253.152 1.7.326.462.177.851.418 1.24.807.356.35.632.773.808 1.24.172.446.29.954.325 1.7.033.746.042.983.042 2.885 0 1.902-.007 2.14-.042 2.885-.035.746-.153 1.253-.325 1.7-.176.467-.451.89-.808 1.24-.35.356-.773.632-1.24.808-.446.172-.954.29-1.7.325C9.14 13.991 8.902 14 7 14c-1.902 0-2.14-.007-2.885-.042-.746-.035-1.253-.153-1.7-.325a3.423 3.423 0 01-1.24-.808 3.433 3.433 0 01-.808-1.24c-.173-.446-.29-.954-.325-1.7C.009 9.14 0 8.902 0 7c0-1.902.007-2.14.042-2.885.035-.747.152-1.253.326-1.7.175-.467.45-.89.807-1.24.35-.357.773-.632 1.24-.808.447-.173.953-.29 1.7-.325C4.86.009 5.098 0 7 0z"
+                  fill="#000" />
+              </svg>
+            </div>
+
+            <div class="header__social-item">
+              <svg width="13" height="13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M6.314 4.494c.681-.696 1.568-1.151 2.6-1.151A4.086 4.086 0 0113 7.429V13h-1.486V7.429a2.6 2.6 0 10-5.2 0V13H4.83V3.714h1.485v.78zm-5.2-2.265a1.114 1.114 0 110-2.229 1.114 1.114 0 010 2.229zM.371 3.714h1.486V13H.371V3.714z"
+                  fill="#000" />
+              </svg>
+            </div>
+          </div>
+
+        </div>
+      </header>
+
+      <section class="intro">
+        <div class="intro__content">
+          <img src="./img/intro-1.png" alt="" class="intro__img--1">
+          <h1 class="intro__title-text">Our digital
+            agency from any
+            service provided
+          </h1>
+          <img src="./img/intro--1.svg" alt="" class="intro__icon--1">
+          <p class="intro__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+            in
+            voluptate velit esse .</p>
+          <a href="#" class="intro__link">learn more</a>
+          <img src="./img/intro--2.svg" alt="" class="intro__icon--2">
+          <div class="intro__scroll-box"></div>
+          <img src="./img/intro-2.png" alt="" class="intro__img--2">
+        </div>
+
+      </section>
+
+      <div class="result">
+        <p class="result__text">
+          OVER 1K+ BUSINESS
+          GROWING WITH BINO
+        </p>
+        <div class="result__items">
+          <img src="./img/partner/1.png" alt="partner" class="result__item">
+          <img src="./img/partner/2.png" alt="partner" class="result__item">
+          <img src="./img/partner/3.png" alt="partner" class="result__item">
+          <img src="./img/partner/4.png" alt="partner" class="result__item">
+          <img src="./img/partner/5.png" alt="partner" class="result__item">
+          <img src="./img/partner/6.png" alt="partner" class="result__item">
+        </div>
+      </div>
+
+
+      <section class="business">
+        <div class="business__content-box content-box">
+          <p class="content-box__subtitle">What we do</p>
+          <h2 class="content-box__title">
+            Unlock revenue
+            growth for your
+            business
+          </h2>
+          <p class="content-box__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+          <a href="#" class="content-box__link">OUR SERVICES</a>
+        </div>
+        <div class="business__advantage-box">
+          <div class="business__items">
+
+            <div class="business__item business__item--1">
+              <img src="./img/branding.svg" alt="" class="business__item-img">
+              <div class="business__item-box">
+                <p class="business__title">BRANDING</p>
+                <p class="business__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do
+                  eiusmod tempor.</p>
+                <a href="#" class="business__link">READ MORE</a>
+              </div>
+            </div>
+
+            <div class="business__item business__item--2">
+              <img src="./img/ui.svg" alt="" class="business__item-img">
+              <div class="business__item-box">
+                <p class="business__title">UI DESIGN</p>
+                <p class="business__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do
+                  eiusmod tempor.</p>
+                <a href="#" class="business__link">READ MORE</a>
+              </div>
+            </div>
+
+            <div class="business__item business__item--3">
+              <img src="./img/mark.svg" alt="" class="business__item-img">
+              <div class="business__item-box">
+                <p class="business__title">MARKETING</p>
+                <p class="business__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do
+                  eiusmod tempor.</p>
+                <a href="#" class="business__link">READ MORE</a>
+              </div>
+            </div>
+
+            <div class="business__item business__item--4">
+              <img src="./img/content.svg" alt="" class="business__item-img">
+              <div class="business__item-box">
+                <p class="business__title">CONTENT</p>
+                <p class="business__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do
+                  eiusmod tempor.</p>
+                <a href="#" class="business__link">READ MORE</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="what-we-do">
+        <div class="what-we-do__inner">
+          <div class="what-we-do__content-box content-box">
+            <p class="content-box__subtitle">What we do</p>
+            <h2 class="content-box__title">
+              Giving your
+              business some
+              great ideas
+            </h2>
+            <p class="content-box__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+            <a href="#" class="content-box__link">SEE ALL PROJECT</a>
+            <img src="./img/what-bg.svg" alt="" class="what-we-do__bg-img">
+          </div>
+          <div class="what-we-do__media-box">
+            <div class="what-we-do__media-item what-we-do__media-item--1">
+              <picture>
+                <source srcset="./img/what--1.avif" type="image/avif" width="670" height="390">
+                <source srcset="./img/what--1.webp" type="image/webp" width="670" height="390">
+                <img class="what-we-do__media-img" src="./img/what--1.jpg" alt="logo" width="670" height="390">
+              </picture>
+            </div>
+            <div class="what-we-do__media-item what-we-do__media-item--2">
+              <picture>
+                <source srcset="./img/what--2.avif" type="image/avif" width="670" height="150">
+                <source srcset="./img/what--2.webp" type="image/webp" width="670" height="150">
+                <img class="what-we-do__media-img" src="./img/what--2.jpg" alt="logo" width="670" height="150">
+              </picture>
+            </div>
+            <div class="what-we-do__media-item what-we-do__media-item--3">
+              <picture>
+                <source srcset="./img/what--3.avif" type="image/avif" width="670" height="150">
+                <source srcset="./img/what--3.webp" type="image/webp" width="670" height="150">
+                <img class="what-we-do__media-img" src="./img/what--3.jpg" alt="logo" width="670" height="150">
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="how-we-work">
+        <div class="how-we-work__inner">
+          <div class="how-we-work__slider-box">
+            <div class="swiper" id="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide how-we-work__slide">
+                  <p class="how-we-work__slide-text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam nostrud.”</p>
+                  <p class="how-we-work__slide-text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna.”</p>
+                </div>
+                <div class="swiper-slide how-we-work__slide">
+                  <p class="how-we-work__slide-text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam nostrud.”</p>
+                  <p class="how-we-work__slide-text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna.”</p>
+                </div>
+                <div class="swiper-slide how-we-work__slide">
+                  <p class="how-we-work__slide-text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam nostrud.”</p>
+                  <p class="how-we-work__slide-text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna.”</p>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+
+              <div class="swiper-button-prev swiper-button-prev--1"></div>
+              <div class="swiper-button-next swiper-button-next--1"></div>
+
+              <div class="swiper-scrollbar"></div>
+            </div>
+          </div>
+          <div class="how-we-work__content-box content-box">
+            <p class="content-box__subtitle">HOW WE WORK</p>
+            <h2 class="content-box__title">
+              The strategy through which
+              we help clients achieve
+              success
+            </h2>
+            <a href="#" class="content-box__link">OUR SERVICES</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="steps">
+        <div class="steps__inner">
+          <div class="steps__media">
+            <picture>
+              <source srcset="./img/steps.avif" type="image/avif" width="470" height="530">
+              <source srcset="./img/steps.webp" type="image/webp" width="470" height="530">
+              <img class="steps__img" src="./img/steps.jpg" alt="logo" width="470" height="530">
+            </picture>
+          </div>
+          <div class="steps__content">
+            <div class="steps__content-items">
+              <div class="steps__content-item steps__content-item--1">
+                <h4 class="steps__content-title">Digital Instrument</h4>
+                <p class="steps__content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Scelerisque in dictum non consectetur a erat nam
+                  at. Pretium aenean pharetra magna ac placerat.</p>
+              </div>
+              <div class="steps__content-item steps__content-item--2">
+                <h4 class="steps__content-title">unique solutions</h4>
+                <p class="steps__content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Scelerisque in dictum non consectetur a erat nam
+                  at. Pretium aenean pharetra magna ac placerat.</p>
+              </div>
+              <div class="steps__content-item steps__content-item--3">
+                <h4 class="steps__content-title">handover supports</h4>
+                <p class="steps__content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Scelerisque in dictum non consectetur a erat nam
+                  at. Pretium aenean pharetra magna ac placerat.</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="slider">
+        <div class="swiper" id="swiper2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slider__slide">
+              <h5 class="slider__title">WHAT OUR CLIENT SAY</h5>
+              <p class="slider__text">“Quisque laoreet dignissim elit ac porta. Suspendisse tristique pretium nunc eu
+                posuere. Nunc dui ante, vestibulum ut quam eleifend,
+                rutrum bibendum mauris vestibulum.”</p>
+              <p class="slider__author">Abdur Rahman</p>
+              <p class="slider__position">UI / UX DESIGNER</p>
+            </div>
+            <div class="swiper-slide slider__slide">
+              <h5 class="slider__title">WHAT OUR CLIENT SAY</h5>
+              <p class="slider__text">“Quisque laoreet dignissim elit ac porta. Suspendisse tristique pretium nunc eu
+                posuere. Nunc dui ante, vestibulum ut quam eleifend,
+                rutrum bibendum mauris vestibulum.”</p>
+              <p class="slider__author">Abdur Rahman</p>
+              <p class="slider__position">UI / UX DESIGNER</p>
+            </div>
+            <div class="swiper-slide slider__slide">
+              <h5 class="slider__title">WHAT OUR CLIENT SAY</h5>
+              <p class="slider__text">“Quisque laoreet dignissim elit ac porta. Suspendisse tristique pretium nunc eu
+                posuere. Nunc dui ante, vestibulum ut quam eleifend,
+                rutrum bibendum mauris vestibulum.”</p>
+              <p class="slider__author">Abdur Rahman</p>
+              <p class="slider__position">UI / UX DESIGNER</p>
+            </div>
+          </div>
+          <div class="swiper-button-prev swiper-button-prev--2"></div>
+          <div class="swiper-button-next swiper-button-next--2"></div>
+        </div>
+      </section>
+
+      <section class="news">
+        <div class="news__top">
+          <div class="news__top-col1">
+            <div class="news__top-col1-inner">
+              <h5 class="news__subtitle">LATEST NEWS</h5>
+              <h5 class="news__title">Check some of latest
+                news & Articles</h5>
+            </div>
+          </div>
+          <div class="news__top-col2">
+            <div class="news__top-col2-inner">
+              <p class="news__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna.</p>
+              <a href="#" class="news__link">SEE ALL NEWS</a>
+            </div>
+          </div>
+        </div>
+        <div class="news__inner">
+          <div class="news__inner-col1">
+            <picture>
+              <source srcset="./img/news--1.avif" type="image/avif" width="430" height="400">
+              <source srcset="./img/news--1.webp" type="image/webp" width="430" height="400">
+              <img class="news__img-1 news__img" src="./img/news--1.jpg" alt="logo" width="430" height="400">
+            </picture>
+            <h5 class="news__subtitle news__subtitle-news">BRANDING</h5>
+            <h5 class="news__title-news">Things to look for when
+              comparing branding
+              alternatives</h5>
+          </div>
+          <div class="news__inner-col2">
+            <div class="news__inner-col2-items">
+              <div class="news__inner-col2-item news__inner-col2-item--1">
+                <picture>
+                  <source srcset="./img/news--2.avif" type="image/avif" width="470" height="220">
+                  <source srcset="./img/news--2.webp" type="image/webp" width="470" height="220">
+                  <img class="news__img-2 news__img" src="./img/news--2.jpg" alt="logo" width="470" height="220">
+                </picture>
+                <h5 class="news__subtitle news__subtitle-news">DESIGN</h5>
+                <h5 class="news__title-news">Drawing identity elements on
+                  branded media</h5>
+              </div>
+              <div class="news__inner-col2-item">
+                <picture>
+                  <source srcset="./img/news--2.avif" type="image/avif" width="470" height="220">
+                  <source srcset="./img/news--2.webp" type="image/webp" width="470" height="220">
+                  <img class="news__img-2 news__img" src="./img/news--2.jpg" alt="logo" width="470" height="220">
+                </picture>
+                <h5 class="news__subtitle news__subtitle-news">DEVELOPMENT</h5>
+                <h5 class="news__title-news">How to add a count animation
+                  the webflow site</h5>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <div class="get">
+        <a class="get__link" href="#">
+          <p class="get__text">get in <span class="get__accent">touch</span></p>
+          <img src="./img/get.svg" alt="" class="get__img">
+        </a>
+
+      </div>
+
+      <footer class="footer">
+        <div class="footer__top">
+          <div class="footer__top-items">
+            <div class="footer__top-logo">
+              <div class="header__logo-box">
+                <a href="#" class="header__logo-link">
+                  <img src="./img/logo.svg" alt="logo" class="header__logo-img">
+                  <img src="./img/logo-text.svg" alt="logo" class="header__logo-img">
+                </a>
+              </div>
+              <p class="footer__top-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.
+              </p>
+              <p class="footer__top-copy">
+                © 2023. All Rights Reserved.
+              </p>
+            </div>
+            <div class="footer__top-content-box">
+              <div class="footer__top-menu">
+                <h5 class="footer__top-title">Useful Link</h5>
+                <div class="footer__top-nav">
+                  <a href="#" class="footer__top-link">HOME</a>
+                  <a href="#" class="footer__top-link">SERVICES</a>
+                  <a href="#" class="footer__top-link">PORTFOLIO</a>
+                  <a href="#" class="footer__top-link">LATEST NEWS</a>
+                  <a href="#" class="footer__top-link">CONTACT</a>
+                </div>
+              </div>
+              <div class="footer__top-adres">
+                <h5 class="footer__top-title">Contact Us</h5>
+                <div class="footer__top-adres-box">
+                  <a href="#" class="footer__top-adress-link">20 Cooper Square,
+                    New York, NY 1003, USA</a>
+                  <a href="#" class="footer__top-adress-link">(+251)155 69669 365</a>
+                  <a href="#" class="footer__top-adress-link">support@bimo.com</a>
+                  <a href="#" class="footer__top-adress-link">www.bimosupport.com</a>
+                </div>
+              </div>
+              <div class="footer__top-form">
+                <h5 class="footer__top-title">Newsletter</h5>
+                <form action="#">
+                  <p class="footer__top-form-text">Be up to date with new products.</p>
+                  <input class="footer__top-input" type="text" placeholder="Enter e-mail">
+                  <button class="footer__top-btn">SUBSCRIBE</button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__bottom-social-box">
+            <a href="#" class="footer__bottom-social-link">
+              <svg width="16" height="13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M10.859 1.563a2.265 2.265 0 00-2.265 2.223l-.022 1.23a.468.468 0 01-.53.455l-1.22-.165c-1.604-.219-3.14-.958-4.615-2.186-.467 2.585.445 4.376 2.642 5.757l1.364.857a.469.469 0 01.027.776l-1.244.908c.74.046 1.442.013 2.025-.102 3.684-.736 6.134-3.508 6.134-8.081 0-.373-.79-1.672-2.296-1.672zM7.032 3.757a3.826 3.826 0 016.548-2.62c.556-.004 1.028.137 2.085-.503-.262 1.28-.39 1.836-.948 2.6 0 5.969-3.668 8.87-7.39 9.613-2.552.51-6.263-.327-7.327-1.437.542-.043 2.744-.28 4.017-1.21C2.94 9.49-1.346 6.966 1.47.184 2.793 1.73 4.133 2.78 5.492 3.338c.905.37 1.126.363 1.541.42z"
+                  fill="#000" />
+              </svg>
+            </a>
+            <a href="#" class="footer__bottom-social-link">
+              <svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M7 4.9a2.1 2.1 0 100 4.2 2.1 2.1 0 000-4.2zm0-1.4a3.5 3.5 0 110 7 3.5 3.5 0 010-7zm4.55-.175a.875.875 0 11-1.75 0 .875.875 0 011.75 0zM7 1.4c-1.732 0-2.015.005-2.82.04-.55.026-.917.1-1.259.233a2.02 2.02 0 00-.756.492c-.219.212-.387.47-.493.756-.133.343-.206.71-.231 1.259C1.404 4.952 1.4 5.223 1.4 7c0 1.732.005 2.015.04 2.82.026.548.1.917.232 1.258.12.305.26.524.492.756.236.235.455.376.756.492.345.134.714.208 1.26.233.772.037 1.043.041 2.82.041 1.732 0 2.015-.005 2.82-.04.548-.027.917-.1 1.258-.232.303-.119.524-.26.756-.492.236-.236.377-.455.493-.756.133-.345.207-.714.232-1.26.037-.773.041-1.043.041-2.82 0-1.732-.005-2.015-.04-2.82-.027-.548-.1-.917-.233-1.259a2.037 2.037 0 00-.492-.756 2.019 2.019 0 00-.756-.493c-.343-.133-.711-.206-1.259-.231C9.047 1.404 8.777 1.4 7 1.4zM7 0c1.902 0 2.14.007 2.885.042.746.035 1.253.152 1.7.326.462.177.851.418 1.24.807.356.35.632.773.808 1.24.172.446.29.954.325 1.7.033.746.042.983.042 2.885 0 1.902-.007 2.14-.042 2.885-.035.746-.153 1.253-.325 1.7-.176.467-.451.89-.808 1.24-.35.356-.773.632-1.24.808-.446.172-.954.29-1.7.325C9.14 13.991 8.902 14 7 14c-1.902 0-2.14-.007-2.885-.042-.746-.035-1.253-.153-1.7-.325a3.423 3.423 0 01-1.24-.808 3.433 3.433 0 01-.808-1.24c-.173-.446-.29-.954-.325-1.7C.009 9.14 0 8.902 0 7c0-1.902.007-2.14.042-2.885.035-.747.152-1.253.326-1.7.175-.467.45-.89.807-1.24.35-.357.773-.632 1.24-.808.447-.173.953-.29 1.7-.325C4.86.009 5.098 0 7 0z"
+                  fill="#000" />
+              </svg>
+            </a>
+            <a href="#" class="footer__bottom-social-link">
+              <svg width="13" height="13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M6.314 4.494c.681-.696 1.568-1.151 2.6-1.151A4.086 4.086 0 0113 7.429V13h-1.486V7.429a2.6 2.6 0 10-5.2 0V13H4.83V3.714h1.485v.78zm-5.2-2.265a1.114 1.114 0 110-2.229 1.114 1.114 0 010 2.229zM.371 3.714h1.486V13H.371V3.714z"
+                  fill="#000" />
+              </svg>
+            </a>
+          </div>
+          <div class="footer__bottom-private-box">
+            <a href="" class="footer__bottom-private-link footer__bottom-private-link--1">Privacy Policy</a>
+            <a href="" class="footer__bottom-private-link footer__bottom-private-link--2">Terms of Use</a>
+          </div>
+        </div>
+      </footer>
+
+
+
+
+
+
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="js/index.min.js" defer></script>
+</body>
+
+</html>
